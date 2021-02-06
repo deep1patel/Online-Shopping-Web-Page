@@ -1,5 +1,6 @@
 .background {
 	background-color:white;
+	margin: 10px;
  }
 .navbarmain a:hover {
 	background-color: #f7c7c7;
@@ -40,53 +41,45 @@
  	width: 100px;
  	width: 90px;
   	height: 40px;
- 	border-radius: 50%;
+ 	border-radius: 30%;
  	border-radius: 25px;
  	display: flex;
   	flex-direction: row;
  
 
-  	-webkit-transition: width 0.5s ease-in-out;
-  	transition: width 0.5s ease-in-out;
+  	-webkit-transition: width 0.9s ease-in-out;
+  	transition: width 0.9s ease-in-out;
 }
 
 .search:focus{
-  	width: 40%;
+  	width: 18%;
 }
-
-
-
-
 .navbar2 a:hover {
 	background-color: rgb(247, 199, 199);
 	color: black;
   }
 .photocard1{
-	width: 250px;
+	width: 233px;
 	padding:4px;width:50%"
 }
 .photocard2{
-	width: 250px;
+	width: 233px;
 	padding:4px;width:50%"
 }
 .photocard3{
-	width: 250px;
+	width: 233px;
 	padding:4px;width:50%"
 }
-.productmain {
-    margin-top: 70px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    letter-spacing: 1px;
-}
+
 .photolarge{
-	width: 750px;
+	width: 700px;
 	padding:4px;width:50%"
 }
 .dropbtn {
 	background-color: #070707;
 	color: white;
-	padding: 16px;
+	width: 450px;
+	height: 50px;
 	font-size: 16px;
 	border: none;
   }
@@ -101,21 +94,37 @@
 	position: absolute;
 	background-color: #f1f1f1;
 	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
 	z-index: 1;
   }
   
   .dropdown-content a {
 	color: black;
-	padding: 12px 16px;
+	padding: 12px 12px;
 	text-decoration: none;
 	display: block;
   }
   
   .dropdown-content a:hover {background-color: #ddd;}
+ 
   
   .dropdown:hover .dropdown-content {display: block;}
   
-  .dropdown:hover .dropbtn {background-color: rgb(247, 199, 199);}
+  .dropdown:hover .dropbtn  {background-color: rgb(247, 199, 199);}
 
- 
+ .atbbutton{
+	 margin-left: 50px;
+	 width: 450px;
+	 height: 50px;
+	 font-size: 16px;
+ }
+ .atbbutton:hover {background-color: rgb(247, 199, 199);}
+
+ .productmain {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 0.1fr 1fr 1.2fr;
+    letter-spacing: 1px;
+}
+
+
