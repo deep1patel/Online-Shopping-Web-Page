@@ -1,5 +1,5 @@
 .background {
-	background-color:#ffffff;
+	background-color:white;
  }
 .navbarmain a:hover {
 	background-color: #f7c7c7;
@@ -29,7 +29,31 @@
 }
 .search{
 	float: right;
+
+  	display: none;
+  	color: grey;
+  	text-align: center;
+  	text-decoration: none;
+  	font-size: 15px;
+
+  	background-color: #fff;
+ 	width: 100px;
+  	height: 40px;
+ 	border-radius: 50%;
+ 	border-radius: 25px;
+ 	display: flex;
+  	flex-direction: row;
+ 
+
+  	-webkit-transition: width 0.5s ease-in-out;
+  	transition: width 0.5s ease-in-out;
 }
+
+.search:focus{
+  	width: 40%;
+}
+
+
 .navbar2 a:hover {
 	background-color: rgb(247, 199, 199);
 	color: black;
