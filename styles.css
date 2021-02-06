@@ -40,37 +40,34 @@
  	width: 100px;
  	width: 90px;
   	height: 40px;
- 	border-radius: 50%;
+ 	border-radius: 30%;
  	border-radius: 25px;
  	display: flex;
   	flex-direction: row;
  
-  	-webkit-transition: width 0.5s ease-in-out;
-  	transition: width 0.5s ease-in-out;
+
+  	-webkit-transition: width 0.7s ease-in-out;
+  	transition: width 0.7s ease-in-out;
 }
 
 .search:focus{
-  	width: 40%;
+  	width: 18%;
 }
-
-
-
-
 .navbar2 a:hover {
 	background-color: rgb(247, 199, 199);
 	color: black;
   }
 .photocard1{
 	width: 250px;
-	padding:4px;width:50%"
+	padding:4px;width:50%
 }
 .photocard2{
 	width: 250px;
-	padding:4px;width:50%"
+	padding:4px;width:50%
 }
 .photocard3{
 	width: 250px;
-	padding:4px;width:50%"
+	padding:4px;width:50%"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
 }
 .productmain {
     margin-top: 70px;
@@ -79,8 +76,8 @@
     letter-spacing: 1px;
 }
 .photolarge{
-	width: 750px;
-	padding:4px;width:50%"
+	width: 700px;
+	padding:4px;width:50%
 }
 .dropbtn {
 	background-color: #070707;
@@ -116,5 +113,3 @@
   .dropdown:hover .dropdown-content {display: block;}
   
   .dropdown:hover .dropbtn {background-color: rgb(247, 199, 199);}
-
- 
