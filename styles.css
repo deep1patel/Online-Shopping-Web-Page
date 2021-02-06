@@ -1,5 +1,36 @@
-.navigationbar a:hover {
-  background-color: #ddd;
-  color: black;
+.background {
+	background-color:#fffaef;
+ }
+.navbarmain a:hover {
+	background-color: rgb(247, 199, 199);
+	color: black;
+  }
+  
+  .navbar2 a{
+	  color: black;
+	  font-size: 20px;
+	  margin-right: 50px;
+  }
+  .navbar1 a{
+	  color :black;
+	  float: left;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+  }
+  .navbar1 a.push {
+	  float: right;
+  }
+.navbar2 {
+	text-align: center;
 }
-
+.logo{
+	text-align: center;
+}
+.search{
+	float: right;
+}
+.navbar2 a:hover {
+	background-color: rgb(247, 199, 199);
+	color: black;
+  }
