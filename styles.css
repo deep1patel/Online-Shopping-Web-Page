@@ -46,9 +46,8 @@
  	display: flex;
   	flex-direction: row;
  
-
-  	-webkit-transition: width 0.9s ease-in-out;
-  	transition: width 0.9s ease-in-out;
+	-webkit-transition: width 0.7s ease-in-out;
+  	transition: width 0.7s ease-in-out;
 }
 
 .search:focus{
@@ -69,6 +68,14 @@
 .photocard3{
 	width: 233px;
 	padding:4px;width:50%"
+}
+.photocard2{
+	width: 250px;
+	padding:4px;width:50%
+}
+.photocard3{
+	width: 250px;
+	padding:4px;width:50%"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
 }
 
 .photolarge{
@@ -128,3 +135,4 @@
 }
 
 
+  .dropdown:hover .dropbtn {background-color: rgb(247, 199, 199);}
