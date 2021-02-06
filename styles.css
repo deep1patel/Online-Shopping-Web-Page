@@ -44,7 +44,6 @@
  	display: flex;
   	flex-direction: row;
  
-
   	-webkit-transition: width 0.5s ease-in-out;
   	transition: width 0.5s ease-in-out;
 }
