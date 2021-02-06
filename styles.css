@@ -1,6 +1,7 @@
 .background {
 	background-color:white;
 	margin: 10px;
+	position: relative;
  }
 .navbarmain a:hover {
 	background-color: #f7c7c7;
@@ -164,5 +165,45 @@
     letter-spacing: 1px;
 }
 
-
   .dropdown:hover .dropbtn {background-color: rgb(247, 199, 199);}
+
+  .product-review {
+    padding: 4rem;
+    text-align: center;
+}
+.product-recommendation-header {
+    font-weight: 100;
+    font-size: 30px;
+    text-align: center;
+}
+
+.product-recommendation-imgs-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+element.style {
+}
+.product-recommendation-img-wrapper {
+    position: relative;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+    justify-content: center;
+}
+.product-recommendation-img {
+    background-size: cover;
+    background-color: rgb(255, 255, 255);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 65%;
+    margin-left: 20%;
+}
+.product-recommendation-details {
+    margin: 0;
+    text-align: left;
+    color: #000000;
+    font-size: small;
+    padding: 5px;
+}
