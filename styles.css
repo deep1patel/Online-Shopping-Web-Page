@@ -178,16 +178,15 @@
 
 .product-recommendation-imgs-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 0.195fr 0.19fr 0.2fr 0.2fr 0.2fr ;
+	align-self: center;
 }
 
-element.style {
-}
 .product-recommendation-img-wrapper {
     position: relative;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    padding-bottom: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
     justify-content: center;
 }
 .product-recommendation-img {
@@ -200,9 +199,26 @@ element.style {
     margin-left: 20%;
 }
 .product-recommendation-details {
-    margin: 0;
-    text-align: left;
+    margin: 100;
+    text-align: center;
     color: #000000;
     font-size: small;
-    padding: 5px;
+    padding: 1px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.footer-wrapper {
+    background-color: #f7c7c7;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-transform: uppercase;
+    height: 70%;
+	text-align: right;
+
 }
