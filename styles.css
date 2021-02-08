@@ -74,7 +74,7 @@
 	width: 700px;
 	padding:4px;width:50%"
 }
-.dropbtn {
+.dropdownButton {
 	background-color: #070707;
 	color: white;
 	width: 200px;
@@ -109,10 +109,10 @@
   
   .dropdown:hover .dropdownList {display: block;}
   
-  .dropdown:hover .dropbtn  {background-color: rgb(247, 199, 199);}
+  .dropdown:hover .dropdownButton  {background-color: rgb(247, 199, 199);}
 
 
-  .dropbtn2 {
+  .dropdownButton2 {
 	background-color: #070707;
 	color: white;
 	width: 200px;
@@ -147,7 +147,7 @@
   
   .dropdown2:hover .dropdownList2 {display: block;}
   
-  .dropdown2:hover .dropbtn2  {background-color: rgb(247, 199, 199);}
+  .dropdown2:hover .dropdownButton2  {background-color: rgb(247, 199, 199);}
 
  .cartButton{
 	 margin-left: 400px;
@@ -164,7 +164,7 @@
     letter-spacing: 1px;
 }
 
-  .dropdown:hover .dropbtn {background-color: rgb(247, 199, 199);}
+  .dropdown:hover .dropdownButton {background-color: rgb(247, 199, 199);}
 
   .socksReviews {
     padding: 4rem;
