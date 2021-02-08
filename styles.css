@@ -268,4 +268,10 @@
 	text-align: right;
 }
 
-@media screen and (max-width: 680px)
+/* @media screen and (max-width: 680px) */
+
+.parent{
+	width: 100%;
+	min-width: 480px;
+	margin: 0;
+}
