@@ -1,6 +1,6 @@
 .background {
 	background-color:white;
-	margin: 10px;
+	margin: 5px;
  }
 .navbarmain a:hover {
 	background-color: #f7c7c7;
@@ -25,6 +25,7 @@
   }
 .navbar2 {
 	text-align: center;
+	position: relative;
 }
 .logo{
 	text-align: center;
@@ -105,12 +106,10 @@
   }
   
   .dropdown-content a:hover {background-color: #ddd;}
- 
   
   .dropdown:hover .dropdown-content {display: block;}
   
   .dropdown:hover .dropbtn  {background-color: rgb(247, 199, 199);}
-
 
   .dropbtn2 {
 	background-color: #070707;
@@ -151,9 +150,10 @@
 
  .atbbutton{
 	 margin-left: 400px;
-	 width: 200px;
-	 height: 50px;
-	 font-size: 15px;
+	 width: 200;
+	 height: 70px;
+	 font-size: 20px;
+	 text-align: right;
  }
  .atbbutton:hover {background-color: rgb(247, 199, 199);}
 
@@ -259,3 +259,15 @@
 	background: #f7c7c7;
 	color: white;
   }
+  .footer-wrapper {
+    background-color: #f7c7c7;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-transform: uppercase;
+    height: 70%;
+	text-align: right;
+}
+.productmain{
+	display: flex;
+}
