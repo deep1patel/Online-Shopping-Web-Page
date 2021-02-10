@@ -267,9 +267,6 @@
     height: 70%;
 	text-align: right;
 }
-
-/* @media screen and (max-width: 680px) */
-
 .parent{
 	width: 100%;
 	min-width: 480px;
